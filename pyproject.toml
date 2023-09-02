@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "football-saudi-arabia"
+version = "0.1.0"
+description = "The objective of this project is study some technologies in Python, for example Streamlit."
+authors = ["Davi Yokogawa <daviyokogawa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.0"
+numpy = "^1.25.2"
+duckdb = "^0.8.1"
+streamlit = "^1.26.0"
+streamlit-extras = "^0.3.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
