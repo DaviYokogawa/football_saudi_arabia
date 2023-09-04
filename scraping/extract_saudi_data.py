@@ -55,4 +55,4 @@ for date in data_placeholder_list:
 
 df_final = pd.concat(df_final)
 
-df_final.to_parquet("data/saudi_data.parquet", engine="pyarrow")
+df_final.to_parquet("data/bronze/saudi_data.parquet", engine="pyarrow")

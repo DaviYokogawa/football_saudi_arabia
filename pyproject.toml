@@ -13,7 +13,11 @@ duckdb = "^0.8.1"
 streamlit = "^1.26.0"
 streamlit-extras = "^0.3.0"
 beautifulsoup4 = "^4.12.2"
+ipykernel = "^6.25.1"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
 
 [build-system]
 requires = ["poetry-core"]
